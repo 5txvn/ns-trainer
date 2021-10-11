@@ -11,12 +11,8 @@ def main():
 
     if (str(number1 + number2) == answer):
         print("Correct!")
-        number1 = random.randint(10, 100)
-        number2 = random.randint(10, 100)
     else:
         print("Incorrect, the correct answer was " + str(number1 + number2))
-        number1 = random.randint(10, 100)
-        number2 = random.randint(10, 100)
 
     main()
 
